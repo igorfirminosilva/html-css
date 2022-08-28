@@ -1,0 +1,15 @@
+@charset "UTF-8";
+
+
+div{
+    display: inline-block;
+    background-color: aqua;
+    text-align: center;
+    border: 3px solid red;
+    height: 300px;
+    width: 435px;
+}
+
+div:hover{
+    background-color: pink;
+}
