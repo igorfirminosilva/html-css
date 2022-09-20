@@ -28,9 +28,13 @@
             background-color: wheat;
         }
 
-        thead{
+        thead, tfoot{
             background-color: gray;
             color: wheat;
+        }
+
+        tbody tr:nth-child(odd){
+            background-color: lightblue;
         }
 
         td.num{
@@ -76,18 +80,17 @@
         </thead>
 
         <tbody>
+
             <tr>
                 <td>São Paulo</td>
                 <td class="num">45.919.049</td>
                 <td class="num">48%</td>
             </tr>
 
-            <tr>
-                <tr>
-                    <td>Minas Gerais</td>
-                    <td class="num">21.168.791</td>
-                    <td class="num">22%</td>
-                </tr>
+            <tr>    
+                <td>Minas Gerais</td>
+                <td class="num">21.168.791</td>
+                <td class="num">22%</td>
             </tr>
 
             <tr>
@@ -106,6 +109,12 @@
                 <td>Paraná</td>
                 <td class="num">11.433.957</td>
                 <td class="num">14%</td>
+            </tr>
+
+            <tr>
+                <td>Rio Grande do Sul</td>
+                <td class="num">11.377.239</td>
+                <td class="num">5%</td>
             </tr>
 
             <tr>
