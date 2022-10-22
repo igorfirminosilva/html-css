@@ -1,0 +1,20 @@
+*{
+    font-family: Arial, Helvetica, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+html, body{
+    height: 100vh;
+    width: 100vw;
+    background-color: rgba(127, 255, 212, 0.356);
+}
+
+div#form1{
+    height: 450px;
+}
+
+form > p{
+    padding: 8px;
+    margin: 8px;
+}
